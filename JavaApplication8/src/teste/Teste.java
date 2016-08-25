@@ -3,19 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication8;
+package teste;
 
 /**
  *
  * @author flavio
  */
-public class JavaApplication8 {
+public class Teste {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //String teste = "mas também";
+        //System.out.println( teste.substring(teste.lastIndexOf(" ")+1,teste.length()));
+
+        String line = "Não só somente";
+        String[] str = line.split(" "); 
+        System.out.println("tamanho : "+ str.length);
+        
+
     }
-    
+
 }
